@@ -80,7 +80,6 @@ This project is licensed under the MIT License.
 
 - Open-Meteo for providing free global weather APIs
 - Apple HIG & Google Material for UI inspiration
-- All open source web dev contributors
 
 ---
 
