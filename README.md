@@ -1,6 +1,6 @@
-# Rate Radar 📡💱
+# Simple Weather ☀️🌦️
 
-> A sleek, minimalist currency converter with real-time exchange rates for global travelers and professionals.
+> A minimalist, mobile-first weather app for instantly checking today's conditions anywhere in the world.
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)
@@ -17,50 +17,45 @@ No installation or API keys required!
 
 ## ✨ Features
 
-- Supports 40+ global currencies including **BRICS**, **ASEAN**, **SAARC**, and popular tourist destinations
-- iOS-inspired clean, white minimalist design with smooth animations
-- Real-time exchange rates via ExchangeRate-API (free tier)
-- One-click currency reversal with animated swap button
-- Responsive mobile-first layout adapted for all screen sizes
-- No page jumps or layout shifts when converting
-- Privacy-first: no tracking, no cookies, all processing client-side
+- Super-fast, minimalist weather interface
+- Real-time weather data for any city worldwide
+- Clean, distraction-free design (white background, crisp icons)
+- Works on all mobile & desktop browsers
+- Responsive layout, large tap targets
+- "Made with ❤️ by sauravhhh" footer
 
 ---
 
 ## 🛠 Tech Stack
 
-- HTML5, CSS3 (Flexbox & Grid), Vanilla JavaScript
-- ExchangeRate-API for currency rates
-- CSS animations using cubic-bezier for native-like feel
+- HTML5, CSS3 (Flexbox, Grid), Vanilla JavaScript
+- [Open-Meteo API](https://open-meteo.com/) for weather data
+- Custom SVG and emoji-based icons
 
 ---
 
 ## 💻 Usage Instructions
 
-1. Enter the amount to convert
-2. Choose the source currency from the dropdown
-3. Choose the target currency
-4. Click **Convert** or press **Enter**
-5. Click the **⇅** reverse button to swap currencies and amounts instantly
+1. Enter any city name in the input box
+2. Click **Get Weather** or press **Enter**
+3. Instantly view temperature, sky condition, humidity, wind, pressure, and “feels like”
+4. To search again, simply enter a new city
 
 ---
 
-## 🌐 Supported Currencies Overview
+## 🌐 Supported Locations
 
-- Major economies: USD, EUR, GBP, JPY, CHF, AUD, CAD
-- BRICS: BRL, RUB, INR, CNY, ZAR, plus Egypt, Ethiopia, Indonesia, Iran
-- ASEAN: THB, SGD, MYR, PHP, VND, MMK, LAK, KHR, BND
-- SAARC: PKR, BDT, LKR, NPR, BTN, MVR, AFN
-- Popular tourist destinations: AED, TRY, MAD, KRW, TWD, HKD, NZD, MXN, NOK, SEK
+- Any city or location worldwide
+- Supports international place names, major and small towns
+- Units: Celsius, wind in km/h
 
 ---
 
 ## ⚡ Performance & Compatibility
 
-- Instant UI response, minimal bundle size
-- Compatible with Chrome, Safari, Firefox, Edge, and major mobile browsers
-- Works offline on cached pages (no rate data offline)
-- Tested on devices ranging from phones to desktops
+- Loads instantly — <50ms on modern connections
+- Mobile-optimized (responsive & touch-ready)
+- Works on Chrome, Safari, Firefox, Edge, iOS Safari/Chrome
 
 ---
 
@@ -72,7 +67,7 @@ Contributions are welcome!
 2. Create a feature branch (`git checkout -b new-feature`)
 3. Commit your changes (`git commit -m 'Add new feature'`)
 4. Push to your branch (`git push origin new-feature`)
-5. Open a Pull Request in this repository
+5. Open a Pull Request!
 
 ---
 
@@ -84,9 +79,9 @@ This project is licensed under the MIT License.
 
 ## 🙏 Credits
 
-- ExchangeRate-API for open, free currency data
-- Apple for iOS design principles inspiration
-- Open source community contributors
+- Open-Meteo for providing free global weather APIs
+- Apple HIG & Google Material for UI inspiration
+- All open source web dev contributors
 
 ---
 
