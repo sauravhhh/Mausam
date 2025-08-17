@@ -22,7 +22,6 @@ No installation or API keys required!
 - Clean, distraction-free design (white background, crisp icons)
 - Works on all mobile & desktop browsers
 - Responsive layout, large tap targets
-- "Made with ❤️ by sauravhhh" footer
 
 ---
 
