@@ -1,4 +1,4 @@
-# Simple Weather ☀️🌦️
+# Simple Weather 🌦️
 
 > A minimalist, mobile-first weather app for instantly checking today's conditions anywhere in the world.
 
