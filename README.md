@@ -19,7 +19,7 @@ No installation or API keys required!
 
 - Super-fast, minimalist weather interface
 - Real-time weather data for any city worldwide
-- Clean, distraction-free design (white background, crisp icons)
+- Clean, distraction-free design (Blue background, crisp icons)
 - Works on all mobile & desktop browsers
 - Responsive layout, large tap targets
 
