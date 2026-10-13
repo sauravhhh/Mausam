@@ -24,9 +24,11 @@
       box-shadow:0 30px 80px rgba(0,0,0,.6), 0 0 0 10px #1a1a1e, 0 0 0 12px #333;}
   }
   /* pager */
-  #pager{flex:1;display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;}
+  #pager{flex:1;display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;
+    overscroll-behavior-x:contain;}
   #pager::-webkit-scrollbar{display:none;}
-  .page{flex:0 0 100%;scroll-snap-align:center;overflow-y:auto;-webkit-overflow-scrolling:touch;
+  #pager.locked{overflow:hidden;scroll-snap-type:none;}
+  .page{flex:0 0 100%;scroll-snap-align:center;overflow-y:auto;overflow-x:hidden;-webkit-overflow-scrolling:touch;
     position:relative;scrollbar-width:none;}
   .page::-webkit-scrollbar{display:none;}
   .bg{position:fixed;inset:0;z-index:-1;transition:opacity .5s;}
@@ -415,6 +417,7 @@ $('locSearch').addEventListener('input', (e)=>{
 function rebuild(){
   pager.innerHTML='';
   state.locs.forEach((loc,i)=>renderPage(loc,i));
+  pager.classList.toggle('locked', state.locs.length<2);
   buildDots();
 }
 rebuild();
